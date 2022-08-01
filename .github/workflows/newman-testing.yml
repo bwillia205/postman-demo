@@ -12,4 +12,4 @@ jobs:
           node-version: '12'
           collectionID: Demo Collection.postman_collection.json
       - run: npm install -g newman
-      - run: newman run $collectionID
+      - run: newman run ${{collectionID}}
