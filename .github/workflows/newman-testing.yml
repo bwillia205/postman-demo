@@ -11,4 +11,4 @@ jobs:
         with:
           node-version: '12'
       - run: npm install -g newman
-      - run: newman run Demo Collection.postman_collection.json
+      - run: newman run "./Demo Collection.postman_collection.json"
